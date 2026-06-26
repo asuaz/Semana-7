@@ -2,51 +2,35 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Registro</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mi Personaje Favorito</title>
 </head>
 <body>
 
-    <div class="form-container">
-        <h2>Formulario de registro</h2>
-        <p class="subtitle">Completa la información para crear una cuenta nueva.</p>
+    <h1>Spider-Man (El Hombre Araña)</h1>
+
+    <section>
+        <h2>Descripción del Personaje</h2>
+        <p>
+            Peter Parker es un joven estudiante de secundaria que obtiene habilidades sobrehumanas 
+            después de ser mordido por una araña radiactiva. Tras la trágica muerte de su tío Ben, 
+            decide usar sus poderes para combatir el crimen bajo la identidad de Spider-Man.
+        </p>
         
-        <form>
-            <div class="form-group">
-                <label for="nombre">Nombre completo</label>
-                <input type="text" id="nombre" placeholder="Nombre y apellidos" required>
-            </div>
+        <img src="spiderman.png" alt="Spider-Man balanceándose por la ciudad" width="300">
+    </section>
 
-            <div class="form-group">
-                <label for="correo">Correo electrónico</label>
-                <input type="email" id="correo" placeholder="ejemplo@correo.com" required>
-            </div>
-
-            <div class="form-group">
-                <label for="usuario">Nombre de usuario</label>
-                <input type="text" id="usuario" placeholder="Tu usuario" required>
-            </div>
-
-            <div class="form-group">
-                <label for="genero">Género favorito</label>
-                <select id="genero" required>
-                    <option value="" disabled selected>Selecciona una opción</option>
-                    <option value="accion">Acción</option>
-                    <option value="comedia">Comedia</option>
-                    <option value="drama">Drama</option>
-                    <option value="ciencia-ficcion">Ciencia Ficción</option>
-                </select>
-            </div>
-
-            <div class="form-group">
-                <label for="contrasena">Contraseña</label>
-                <input type="password" id="contrasena" placeholder="Crea una contraseña" required>
-            </div>
-
-            <button type="submit" class="btn-submit">Registrarme</button>
-        </form>
-    </div>
+    <hr> <section>
+        <h2>Poderes y Características</h2>
+        <p>A continuación se detallan las habilidades principales que posee este superhéroe:</p>
+        
+        <ul>
+            <li><strong>Fuerza sobrehumana:</strong> Capacidad para levantar objetos muy pesados.</li>
+            <li><strong>Sentido arácnido:</strong> Un sexto sentido que le advierte del peligro inminente.</li>
+            <li><strong>Adherencia a superficies:</strong> Puede trepar por muros, paredes y techos con facilidad.</li>
+            <li><strong>Lanzadores de telaraña:</strong> Dispositivos creados por él mismo para columpiarse y atrapar enemigos.</li>
+            <li><strong>Gran agilidad y reflejos:</strong> Movimientos extremadamente rápidos y flexibles.</li>
+        </ul>
+    </section>
 
 </body>
 </html>
